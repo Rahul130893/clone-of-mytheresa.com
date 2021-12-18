@@ -1,0 +1,31 @@
+#container_bag {
+    display: flex;
+    justify-content: space-between;
+  }
+  button {
+    color: red;
+    background-color: white;
+  }
+  #total {
+      display:flex;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  #shop_page{
+      width:81%;
+      margin:auto;
+      display:flex;
+      justify-content: space-between;
+
+  }
+  #container_bag>div{
+      margin-right: 40px;
+  }
+
+  #shop_page>div:nth-child(2){
+      width:20%;
+  }
+  #back_to_products{
+      margin-top:50px;
+      margin-left:150px;
+  }
