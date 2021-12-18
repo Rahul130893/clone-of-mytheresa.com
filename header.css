@@ -1,0 +1,119 @@
+/* header start */
+#header {
+    width: 90%;
+    height: 280px;
+    margin: auto;
+   
+  }
+  #topheader {
+    width: 90%;
+    height: 50px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+   
+  }
+  .lefthead {
+    display: flex;
+    justify-content: space-around;
+    width: 25%;
+    font-size: 13px;
+    font-weight: 500;
+    font-family: Futura-Medium, "Century Gothic", "Gill Sans", Helvetica,
+      Arial, sans-serif;
+      
+  }
+  .lefthead>div{
+    
+    height:50px;
+    
+  }
+  .lefthead>div:hover{
+    
+    background-color: whitesmoke;
+  }
+  .righthead {
+    width: 40%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: dimgray;
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+  
+  }
+ 
+  .righthead p{
+    margin-top: 15px;
+  }
+  #icon{
+    margin-top: 10px;
+  }
+  .righthead p:hover{
+      color:black;
+  }
+ 
+
+  #fav {
+    display: flex;
+  }
+
+  #mytheresa {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    height: 80px;
+    margin: auto;
+  
+    margin-top: 50px;
+  }
+  #mytheresa > div {
+    width: 30%;
+    text-align: center;
+    
+  }
+
+  #mytheresa > div:nth-child(3) {
+    text-align: end;
+  }
+  #bagicon {
+    font-size: 40px;
+  }
+  #bagicon_div {
+    display: flex;
+    justify-content: end;
+  }
+  #ptag {
+    color: red;
+    font-family: Futura, "Century Gothic", "Gill Sans", Helvetica, Arial,
+      sans-serif;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 400;
+  }
+  #newarrivals {
+    width: 90%;
+    height: 50px;
+    margin: auto;
+    margin-top: 30px;
+   
+    display: flex;
+    justify-content: space-between;
+  }
+  #newarrivals > div:nth-child(1) {
+    display: flex;
+    width: 65%;
+    justify-content: space-between;
+  }
+  #red {
+    color: red;
+  }
+  #my_account{
+    cursor: pointer;
+  }
+  #fav>p{
+    cursor: pointer;
+  }
+  #bagicon_div>p{
+    cursor: pointer;
+  }
