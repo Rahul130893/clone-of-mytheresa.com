@@ -1,0 +1,147 @@
+#main_container {
+    width: 100%;
+    /* height: 2420px; */
+    border-top: 1px solid green;
+  }
+  #main_container_content {
+    width: 81%;
+    height: 100%;
+    border-bottom: 1px dotted blue;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+  #main_container_content > div:nth-child(1) {
+    margin-bottom: 30px;
+  }
+  #main_container_content > div:nth-child(2) {
+    margin-bottom: 30px;
+  }
+  #main_container_content > div:nth-child(3) {
+    width: 100%;
+    height: 250px;
+  
+    background-color: whitesmoke;
+    text-align: center;
+    font-family: Futura, "Century Gothic", "Gill Sans", Helvetica, Arial,
+      sans-serif;
+  }
+  #main_container_content > div:nth-child(3) > p:nth-child(1) {
+    font-size: 20px;
+  }
+  #main_container_content > div:nth-child(3) > p:nth-child(2) {
+    font-size: 34px;
+
+    font-weight: 400;
+  }
+  #main_container_content > div:nth-child(3) > p:nth-child(3) {
+    font-size: 20px;
+  }
+  button {
+    background-color: black;
+    color: white;
+    font-size: 12px;
+    width: 120px;
+    height: 30px;
+    border: none;
+  }
+
+  #double_arrow {
+    font-size: 10px;
+    margin: auto;
+  }
+  #jewelry {
+    display: flex;
+    width: 100%;
+    height: 200px;
+   
+    justify-content: space-around;
+    font-family: Futura, "Century Gothic", "Gill Sans", Helvetica, Arial,
+      sans-serif;
+    margin-top: 30px;
+  }
+  .mood {
+    font-size: 34px;
+    font-family: Futura, "Century Gothic", "Gill Sans", Helvetica, Arial,
+      sans-serif;
+  }
+  #jewelry > div {
+    text-align: center;
+    width: 40%;
+  }
+  #jewelry > div:nth-child(1) > p:nth-child(1) {
+    font-size: 20px;
+  }
+  #jewelry > div:nth-child(2) > p:nth-child(1) {
+    font-size: 20px;
+  }
+
+  #golden {
+    width: 100%;
+    height: 1100px;
+    /* border: 1px solid red; */
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+  }
+  #golden > div {
+    width: 49%;
+    height: 100%;
+    /* border: 1px solid green; */
+  }
+  #golden > div > div:nth-child(1) {
+    height: 40.5%;
+    border-bottom: 1px solid teal;
+  }
+  #golden > div > div:nth-child(2) {
+    height: 60%;
+   
+  }
+
+  #golden button {
+    margin-left: 250px;
+    margin-top: 50px;
+    text-align: center;
+  }
+  #ticket{
+    width:80%;
+    margin:auto;
+ 
+    text-align: center;
+  }
+  
+
+  .p1{
+    font-size:21px;
+    font-family: Futura, "Century Gothic", "Gill Sans", Helvetica, Arial,
+      sans-serif;
+      text-align: center;
+  }
+  #ticket>p:nth-child(2){
+    font-size:33px;
+    font-family: Futura, "Century Gothic", "Gill Sans", Helvetica, Arial,
+      sans-serif;
+
+  }
+  #main_container_content2{
+    width:81%;
+    margin:auto;
+    border-bottom:1px solid grey;
+  }
+  #main_container_content3{
+    width:81%;
+    margin:auto;
+    border-bottom:1px solid gray;
+    text-align: center;
+  }
+  #main_container_content3>div{
+    display:flex;
+    justify-content: space-between;
+    width:100%;
+    /* border:1px solid blue; */
+  }
+  #main_container_content3>button{
+  
+   margin:40px auto;
+   
+  }
+  /* main body over */
