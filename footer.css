@@ -1,0 +1,35 @@
+#footer{
+    width:81%;
+    height:350px;
+    border-bottom:1px solid grey;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+#footer>div{
+   
+    width:20%;
+    flex-direction: column;
+    font-size: 17px;
+    padding:5px;
+    line-height: 15px;;
+}
+.p2{
+    margin-left:25px;
+    color:gray;
+     
+}
+#footer>div:nth-child(4){
+    width:35%;
+}
+#signup{
+    display:flex;
+    margin-left:20px;
+}
+#signup>button{
+    background-color: grey;
+    color:black;
+}
+#follow{
+    display:flex;
+}
