@@ -33,3 +33,12 @@ function displaycart(cart) {
     window.location.href = "payment.html";
   });
 }
+document.getElementById("back").addEventListener("click", prod)
+function prod(){
+  window.location.href="womenproduct.html"
+}
+
+document.getElementById("home").addEventListener("click", home)
+function home(){
+  window.location.href="home.html"
+}
