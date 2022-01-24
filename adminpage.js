@@ -18,3 +18,7 @@ function additems(e){
     
     
 }
+document.getElementById("gotopage").addEventListener("click", gotoprod)
+function gotoprod(){
+    window.location.href="womenproduct.html"
+}
