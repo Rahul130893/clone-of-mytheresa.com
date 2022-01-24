@@ -23,6 +23,7 @@ function register() {
     alert("invalid input password");
   } else {
     console.log("yes");
+    alert("Registration successful")
     localStorage.setItem("userdatabase", JSON.stringify(userdata));
   }
 
@@ -35,16 +36,24 @@ function register() {
 }
 
 document.querySelector("#login_btn").addEventListener("click", login);
+var regdUser = JSON.parse(localStorage.getItem("userdatabase"));
+
 function login() {
   console.log("yes");
   var regdUser = JSON.parse(localStorage.getItem("userdatabase"));
-  var email = document.querySelector("#email").value;
-  var password = document.querySelector("#pass").value;
+  console.log(regdUser.length);
+  var email = document.getElementById("loginEmail").value;
+  var password = document.getElementById("loginPass").value;
 
-  for (i = 0; i < regdUser.length; i++) {
-    console.log("haan");
-    if((regdUser[i].Email == email) && (regdUser[i].Password == password)) {
-      window.location.href ="womenproduct.html"
+  if (email == "admin" && password == "admin") {
+    window.location.href = "adminpage.html";
+  } else {
+    for (i = 0; i < regdUser.length; i++) {
+      console.log("haan");
+      console.log;
+      if (regdUser[i].Email == email && regdUser[i].Password == password) {
+        window.location.href = "womenproduct.html";
+      }
     }
   }
 }
